@@ -18,7 +18,7 @@ services:
     links:
       - influxdb
     env_file:
-      - ./setup/influxv2.env
+      - ./influxv2.env
     depends_on:
       - influxdb_cli
 volumes:
